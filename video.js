@@ -3,6 +3,7 @@
 		
 		context=canvas.getContext('2d'),
 		video=document.getElementById('video'),
+		start=document.getElementById('startbt'),
 		vendorUrl=window.URL || window.webkitURL;
 		
 	navigator.getMedia=	navigator.getUserMedia ||
@@ -30,6 +31,13 @@
 		{ 
 			video.src='';
 			cameraStream.stop();
+		});
+	document.querySelector('#startbt').addEventListener(
+		'click',
+		function(e)
+		{
+			video.src='';		
+		    startt();
 		});
 	
 		
