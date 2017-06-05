@@ -11,7 +11,10 @@
 						navigator.mozGetUserMedia ||
 						navigator.msGetUserMedia;
 	//var video= document.querySelector('video');
+	// well done
 	var cameraStream='';
+	
+
 	function startt(){
 			navigator.getMedia({
 				video: true,
