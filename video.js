@@ -10,8 +10,7 @@
 						navigator.webkitGetUserMedia ||
 						navigator.mozGetUserMedia ||
 						navigator.msGetUserMedia;
-	//var video= document.querySelector('video');
-	// well done
+	
 	var cameraStream='';
 	
 
@@ -39,9 +38,9 @@
 		'click',
 		function(e)
 		{
-			video.src='';		
 		    startt();
 		});
 	
 		
-})();
+}
+)();
